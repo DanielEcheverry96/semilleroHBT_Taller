@@ -22,6 +22,10 @@ public class ResultadoDTO implements Serializable {
 	 * Mensaje de ejecución.
 	 */
 	private String mensajeEjecucion;
+	
+	public ResultadoDTO() {
+		
+	}
 
 	/**
 	 * Constructor de la clase.

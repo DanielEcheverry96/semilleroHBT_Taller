@@ -1,0 +1,17 @@
+1. 
+Caracteristica: Consultar los pedidos registrados de un cliente en especifico
+Criterio de aceptacion: Dado un cliente en el cuadro de busquedad
+Evento: Ingresar cedula del cliente y oprimir en el boton consultar
+Resultado: Se muestra en pantalla los pedidos que cumplan con el critero de busquedad
+
+2.
+Caracteristica: Consultar el pedido de mayor valor registrado de un cliente en especifico
+Criterio de aceptacion: Dado un cliente en el cuadro de busquedad
+Evento: Ingresar cedula del cliente y oprimir en el boton consultar
+Resultado: Se muestra en pantalla el pedido que cumpla con el criterio de busquedad
+
+3.
+Caracteristica: Crear un pedido de un cliente en especifico
+Criterio de aceptacion: Dado un pedido por el cliente
+Evento: Ingresar informacion del pedido y oprimir en el boton pedir
+Resultado: Se muestra en pantalla un mensaje de confirmacion de pedido

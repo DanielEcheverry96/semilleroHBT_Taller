@@ -1,0 +1,7 @@
+<h2>Realice su pedido</h2>
+<!-- Seccion de opciones del pedido -->
+<!-- Mandando y Recibiendo datos del componente opciones -->
+<app-opciones [platos]="platos" [bebidas]="bebidas" [tipoPedidos]="tipoPedidos" (platoEmitter)="asignarPlato($event)" (bebidaEmitter)="asignarBebida($event)" (tipoPedidoEmitter)="asignarTipoPedido($event)"></app-opciones>
+<button (click)="crearFactura()">Realizar Pedido</button>
+<!-- Seccion de resumen del pedido -->
+<app-resumen [facDetalle]="facDetalle"></app-resumen>

@@ -1,0 +1,12 @@
+<h4>Informacion de su pedido</h4>
+<section>
+    <div *ngIf="facDetalle">
+        <h5>Detalle de la factura</h5>
+        <ul>
+            <li>Fecha: <span>{{ facDetalle.fecha }}</span></li>
+            <li>Tipo pedido: <span>{{ facDetalle.tipoPedido }}</span></li>
+            <li>Plato: <span>{{ facDetalle.plato.nombre }}</span></li>
+            <li>Bebida: <span>{{ facDetalle.bebida.nombre }}</span></li>
+        </ul>
+    </div>
+</section>
